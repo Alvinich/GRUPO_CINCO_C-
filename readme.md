@@ -6,12 +6,10 @@ Su objetivo principal es garantizar la autosostenibilidad financiera para proteg
 
 ---
 
-## Lista de Integrantes
-
-| Nº |Integrante | Rol en el Proyecto | Usuario de GitHub | 
-| :--- | :--- | :--- | :--- | :--- |
-| **1** | **Mejia Loayza Jose Daniel** | Scrum Master, Developer | `@JoseMejia24` | 
-| **2** | **Mendoza Flores Grabiel Adalid** | product Owner, Developer | `@RealMandril` | 
-| **3** | **Fabian Chuquimia Alvaro Marvin** |  Developer | `@Alvinich` | 
-| **4** | **Cori Copa Cristian Josue** | Líder de Documentación, Developer | `@josuecoricopa` |
-| **5** | **Alcoreza Mamani Pablo Sebastian** | Snakero, Developer | `@Sebas68710` | 
+| N° | Integrante | Rol en el Proyecto | Usuario de GitHub |
+| :--- | :--- | :--- | :--- |
+| 1 | Mejia Loayza Jose Daniel | Scrum Master, Developer | @JoseMejia24 |
+| 2 | Mendoza Flores Grabiel Adalid | Product Owner, Developer | @RealAndres11 |
+| 3 | Fabian Chuquimia Alvaro Marvin | Developer | @Alvinich |
+| 4 | Cori Copa Cristian Josue | Líder de Documentación, Developer | @josuecoricopa |
+| 5 | Alcoreza Mamani Pablo Sebastian | Snikero, Developer | @Sebas160710 |
