@@ -8,7 +8,7 @@ Su objetivo principal es garantizar la autosostenibilidad financiera para proteg
 
 ## Lista de Integrantes
 
-| Nº |Integrante | Rol en el Proyecto | Usuario de GitHub | Perfil |
+| Nº |Integrante | Rol en el Proyecto | Usuario de GitHub | 
 | :--- | :--- | :--- | :--- | :--- |
 | **1** | **Mejia Loayza Jose Daniel** | Scrum Master, Developer | `@JoseMejia24` | 
 | **2** | **Mendoza Flores Grabiel Adalid** | product Owner, Developer | `@RealMandril` | 
