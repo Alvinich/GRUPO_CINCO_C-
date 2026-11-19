@@ -12,4 +12,4 @@ Su objetivo principal es garantizar la autosostenibilidad financiera para proteg
 | 2 | Mendoza Flores Grabiel Adalid | Product Owner, Developer | @RealAndres11 |
 | 3 | Fabian Chuquimia Alvaro Marvin | Developer | @Alvinich |
 | 4 | Cori Copa Cristian Josue | Líder de Documentación, Developer | @josuecoricopa |
-| 5 | Alcoreza Mamani Pablo Sebastian | Snikero, Developer | @Sebas160710 |
+| 5 | Alcoreza Mamani Pablo Sebastian | Snakero, Developer | @Sebas160710 |
