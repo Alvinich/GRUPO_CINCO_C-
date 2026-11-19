@@ -1,19 +1,13 @@
-import os
-
 import mysql.connector
 
 
 def conectar():
-    password = os.environ.get("MYSQL_PASSWORD")
-    if password is None:
-        raise ValueError("Configura la variable de entorno MYSQL_PASSWORD.")
-
     conexion = mysql.connector.connect(
-        host=os.environ.get("MYSQL_HOST", "localhost"),
-        user=os.environ.get("MYSQL_USER", "root"),
-        password=password,
-        database=os.environ.get("MYSQL_DATABASE", "donantes"),
-        port=int(os.environ.get("MYSQL_PORT", "3306")),
+        host="localhost",
+        user="root",
+        password="Jossdann945",
+        database="donaciones",
+        port=3306,
         use_pure=True,
     )
     if not conexion.is_connected():
