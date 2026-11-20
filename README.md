@@ -18,7 +18,6 @@ Asegúrese de tener instaladas las siguientes herramientas en su equipo:
 | 2 | Mendoza Flores Grabiel Adalid | Product Owner, Developer | @RealAndres11 |
 | 3 | Fabian Chuquimia Alvaro Marvin | Developer | @Alvinich |
 | 4 | Cori Copa Cristian Josue | Líder de Documentación, Developer | @josuecoricopa |
-<<<<<<< HEAD
 | 5 | Alcoreza Mamani Pablo Sebastian | Snakero, Developer | @Sebas160710 |
 | 5 | Alcoreza Mamani Pablo Sebastian | Snikero, Developer | @Sebas160710 |
 
@@ -64,7 +63,7 @@ GRUPO_CINCO_C-\
 5. En *Default Target Schema, seleccione la base de datos creada y presione **Start Import* (o ejecute el script con el ícono del rayo ⚡). Debe aparecer el mensaje de confirmación sin errores y las tablas visibles en el panel izquierdo (*Schemas*).
 Alternativa por consola:
 bash
-mysql -u root -p aldeas_infantiles < "ruta\de\tu\carpeta\GRUPO_CINCO_C-\base_de_datos\archivo_base_datos.sql"
+mysql -u root -p Donaciones < "ruta\de\tu\carpeta\GRUPO_CINCO_C-\base_de_datos\archivo_base_datos.sql"
 
 
 ### 5. Abrir el sistema
