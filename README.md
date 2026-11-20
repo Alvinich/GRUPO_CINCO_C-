@@ -20,8 +20,8 @@ Asegúrese de tener instaladas las siguientes herramientas en su equipo:
 | 4 | Cori Copa Cristian Josue | Líder de Documentación, Developer | @josuecoricopa |
 <<<<<<< HEAD
 | 5 | Alcoreza Mamani Pablo Sebastian | Snakero, Developer | @Sebas160710 |
-=======
 | 5 | Alcoreza Mamani Pablo Sebastian | Snikero, Developer | @Sebas160710 |
+
 ## Instalación paso a paso (Windows + MySQL Workbench + Python)
 
 ### 2. Descargar el proyecto
