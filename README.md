@@ -24,7 +24,7 @@ Asegúrese de tener instaladas las siguientes herramientas en su equipo:
 | 5 | Alcoreza Mamani Pablo Sebastian | Snikero, Developer | @Sebas160710 |
 ## Instalación paso a paso (Windows + MySQL Workbench + Python)
 
-### 1. Descargar el proyecto
+### 2. Descargar el proyecto
 
 * **Opción A — con Git:**
   Ubíquese en la carpeta donde desea guardar sus proyectos y ejecute:
@@ -74,4 +74,3 @@ mysql -u root -p aldeas_infantiles < "ruta\de\tu\carpeta\GRUPO_CINCO_C-\base_de_
    bash
    python main.py
    Esto abrirá la pantalla de inicio del sistema.
->>>>>>> c74d771 (actualizando mi Readme.md)
