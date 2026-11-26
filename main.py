@@ -4,7 +4,7 @@ from tkinter import messagebox, ttk
 
 from mysql.connector import Error
 
-from conexion1 import eliminar_donante, guardar_donante, listar_donantes
+from conexion import eliminar_donante, guardar_donante, listar_donantes
 
 # Configuración de la ventana principal
 root = tk.Tk()
