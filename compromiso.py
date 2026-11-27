@@ -140,7 +140,7 @@ def abrir(padre, id_donante=None, id_programa=None):
     combo_estado.current(0)
 
     # 4. Calendario interactivo (solo fechas después de hoy y formato DD,MM,AAAA)
-    tk.Label(der, text="4. Fecha de inicio (elige en el calendario, posterior a hoy):",
+    tk.Label(der, text="4. Fecha de inicio (elije la fecha de hoy y posterior):",
              bg=BLANCO, font=("Arial", 10, "bold")).pack(anchor="w", pady=(10, 3))
 
     manana = date.today() + timedelta(days=1)
@@ -153,12 +153,15 @@ def abrir(padre, id_donante=None, id_programa=None):
         headersforeground=BLANCO,
         selectbackground=AZUL,
         borderwidth=2,
-        mindate=manana,
-        date_pattern="dd,mm,yyyy",
-        state="readonly",
+        year=manana.year,
+        month=manana.month,
+        day=manana.day,
+        date_pattern="dd/mm/yyyy",
         font=("Arial", 11, "bold")
     )
+    cal_fecha.config(mindate=manana)
     cal_fecha.set_date(manana)
+    cal_fecha.bind("<Key>", lambda _event: "break")
     cal_fecha.pack(anchor="w", ipady=4)
 
     def crear_compromiso():
