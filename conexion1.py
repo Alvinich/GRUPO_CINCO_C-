@@ -216,6 +216,99 @@ def asegurar_programas():
         for nombre, aldea in PROGRAMAS_INICIALES:
             ejecutar("INSERT INTO programa (nombre, aldea) VALUES (%s, %s)",
                      (nombre, aldea))
+def guardar_reporte(id_programa, id_donante, fecha, contenido):
+    conn = conectar()
+    cursor = conn.cursor()
+    try:
+        cursor.execute(
+            """
+            INSERT INTO reporte (id_programa, id_donante, fecha, contenido)
+            VALUES (%s, %s, %s, %s)
+            """,
+            (id_programa, id_donante, fecha, contenido),
+        )
+        conn.commit()
+        return cursor.lastrowid
+    finally:
+        cursor.close()
+        conn.close()
+
+
+def listar_reportes_donante(id_donante):
+    conn = conectar()
+    cursor = conn.cursor()
+    try:
+        cursor.execute(
+            """
+            SELECT r.id_reporte, p.nombre, r.fecha, r.contenido
+            FROM reporte r
+            JOIN programa p ON r.id_programa = p.id_programa
+            WHERE r.id_donante = %s
+            ORDER BY r.id_reporte DESC
+            """,
+            (id_donante,),
+        )
+        return cursor.fetchall()
+    finally:
+        cursor.close()
+        conn.close()
+
+
+def listar_donantes_por_programa(id_programa):
+    conn = conectar()
+    cursor = conn.cursor()
+    try:
+        cursor.execute(
+            """
+            SELECT d.id_donante, d.nombre, d.departamento, p.aldea,
+                   c.monto, c.frecuencia, c.estado
+            FROM compromiso c
+            JOIN donante d ON c.id_donante = d.id_donante
+            JOIN programa p ON c.id_programa = p.id_programa
+            WHERE c.id_programa = %s
+            ORDER BY c.id_compromiso DESC
+            """,
+            (id_programa,),
+        )
+        return cursor.fetchall()
+    finally:
+        cursor.close()
+        conn.close()
+
+
+def obtener_resumen_donante(id_donante):
+    conn = conectar()
+    cursor = conn.cursor()
+    try:
+        cursor.execute(
+            """
+            SELECT c.id_compromiso, p.id_programa, p.nombre, p.aldea,
+                   c.monto, c.frecuencia, c.estado
+            FROM compromiso c
+            JOIN programa p ON c.id_programa = p.id_programa
+            WHERE c.id_donante = %s
+            ORDER BY c.id_compromiso DESC
+            """,
+            (id_donante,),
+        )
+        compromisos = cursor.fetchall()
+
+        cursor.execute(
+            """
+            SELECT pg.id_pago, pg.id_compromiso, pg.monto, pg.fecha, pg.estado
+            FROM pago pg
+            JOIN compromiso c ON pg.id_compromiso = c.id_compromiso
+            WHERE c.id_donante = %s
+            ORDER BY pg.fecha DESC
+            """,
+            (id_donante,),
+        )
+        pagos = cursor.fetchall()
+        return compromisos, pagos
+    finally:
+        cursor.close()
+        conn.close()
+
 if __name__ == "__main__":
     conectar().close()
     print("¡Conexión exitosa con MySQL!")
