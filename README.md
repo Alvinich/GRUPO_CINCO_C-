@@ -1,4 +1,4 @@
-# Gestión de Donantes
+# Gestión de Donantes.
 
 Aplicación de escritorio hecha en **Python** para administrar donantes. Usa **Tkinter** para las ventanas y **MySQL** para guardar los datos.
 
