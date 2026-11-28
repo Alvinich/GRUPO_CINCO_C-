@@ -10,7 +10,7 @@
 ●	  CORI COPA CRISTIAN JOSUE
 (Líder de Documentación, Développer)
 ●	 ALCOREZA MAMANI PABLO SEBASTIAN
-(Snakero, Développer)
+(Développer)
 # BITACORA 12/11/26
 **Actividades realizadas:**
 - Creamos la base de datos del proyecto ALDEAS INFANTILES SOS.
@@ -31,7 +31,7 @@ mejor organizacion de carperta de nuestro sistema .
 hoy trabajamos la valiacion del sistema en fuundamentos de base de datos 
 ## BITACORA 26/11/26
 lo que hicimos hoy fue mostrar el avance de la bitacora al los ingenieros y despues de la exposicion entre
-el grupo creamos 2 pantallas mas para nuestro proyecto integrando la parte de matematicas a una de esas pantallas
+el grupo creamos 2 pantallas mas para nuestro proyecto integrando la parte de matematicas a una de esas pantallas.
 ## BITACORA 27/11/26 
-El dia de hoy estamos preparando nuestros proyectos y definiendo como mejorarlo y preparandolo para la exposicion del dia de hoy 
-mejorando algunas cosas de la base de datos y corrigiendo lo que nos dijo el ingeniero 
+El dia de hoy estamos preparando nuestros proyectos y definiendo como mejorarlo y preparandolo para la exposicion del dia de hoy.
+mejorando algunas cosas de la base de datos y corrigiendo lo que nos dijo el ingeniero .
