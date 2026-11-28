@@ -8,7 +8,7 @@
 ●	 FABIAN CHUQUIMIA ALVARO MARVIN
 (Développer)
 ●	  CORI COPA CRISTIAN JOSUE
-(Líder de Documentación,Développer)
+(Líder de Documentación, Développer)
 ●	 ALCOREZA MAMANI PABLO SEBASTIAN
 (Développer)
 # BITACORA 12/11/26
