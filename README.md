@@ -17,7 +17,7 @@ El **tipo de donante** se asigna automáticamente según la ciudad:
 | Bolivia | Local |
 | Cualquier otro de la lista
 
-## Archivos
+## Archivos.
 
 | Archivo | Función |
 |---|---|
